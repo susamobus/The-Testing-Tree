@@ -1,5 +1,6 @@
 var layers = {}
 
+window.setInterval(LayerDisplay(),500)
 function LayerDisplay() {
     document.getElementById("testing").innerHTML = layers
 }
