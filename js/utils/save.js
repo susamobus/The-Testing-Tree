@@ -185,6 +185,7 @@ function fixData(defaultData, newData) {
 	}
 }
 function load() {
+	LayerDisplay()
 	let get = localStorage.getItem(modInfo.id);
 
 	if (get === null || get === undefined) {
@@ -206,7 +207,6 @@ function load() {
 	versionCheck();
 	changeTheme();
 	changeTreeQuality();
-	LayerDisplay();
 	updateLayers();
 	setupModInfo();
 
