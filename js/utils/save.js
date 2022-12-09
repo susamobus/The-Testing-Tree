@@ -206,10 +206,9 @@ function load() {
 	versionCheck();
 	changeTheme();
 	changeTreeQuality();
+	LayerDisplay();
 	updateLayers();
 	setupModInfo();
-
-	LayerDisplay();
 
 	setupTemp();
 	updateTemp();
