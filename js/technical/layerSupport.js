@@ -1,8 +1,7 @@
 var layers = {}
 
-window.setInterval(LayerDisplay(),500)
 function LayerDisplay() {
-    document.getElementById("testing").innerHTML = layers
+    document.getElementById("testing").innerHTML = JSON.stringify(layers)
 }
 
 const decimalZero = new Decimal(0)
