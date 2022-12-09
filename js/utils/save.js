@@ -209,12 +209,13 @@ function load() {
 	updateLayers();
 	setupModInfo();
 
+	LayerDisplay();
+
 	setupTemp();
 	updateTemp();
 	updateTemp();
 	updateTabFormats()
 	loadVue();
-	LayerDisplay();
 }
 
 function loadOptions() {
